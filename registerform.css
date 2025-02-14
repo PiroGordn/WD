@@ -101,6 +101,14 @@ body {
     align-items: center;
 }
 
+.storytable {
+    color: white;
+}
+
+tr {
+    color: white;
+}
+
 input {
     width: 100%;
     padding: 12px;
