@@ -1,0 +1,117 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(246, 255, 255);
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 ,h3,h4{
+    padding-left: 1%;
+    color: #333;
+}
+
+nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav .navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navflex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+#logo {
+    height: 75px;
+}
+
+button#logobutton {
+    background-color: rgb(246, 255, 255);
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    color: #007BFF;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+button#logobutton:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.content a.tag {
+    display: block;
+    color: #000;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.content a.tag:hover {
+    background-color: rgb(246, 255, 255);
+    color: #007BFF;
+}
+
+.homeimg {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.homeimg {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.para {
+    padding: 1%;
+    line-height: 1.6;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container p {
+    padding-bottom: 2%;
+}
+
+#cbutton {
+    background-color: rgb(246, 255, 255);
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    color: #007BFF;
+    cursor: pointer;
+    padding: 10px 15px;
+}

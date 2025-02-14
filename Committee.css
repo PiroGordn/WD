@@ -1,0 +1,105 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f4f4f4;
+  }
+
+  .form-control {
+    margin: 10px 0;
+  }
+
+
+.bg {
+    background-color: rgb(246, 255, 255);
+}
+
+.hyperlink a{
+    color:purple;
+}
+
+.hyperlink a:visited {
+    color:rgb(255, 171, 161);
+}
+
+.hyperlink a:hover {
+    color:darkslategray;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.para {
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(214, 239, 247);
+}
+.navdiv {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5%;
+}
+
+
+.item-2 {
+    flex-basis: 50%;
+    text-align: right;
+}
+.item-2 .navflex {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2%;
+}
+
+.navflex_contact {
+    padding-right: 1.5%;
+}
+
+.navul {
+    align-items: left;
+}
+.navul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.navflex_clubs {
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.navflex_clubs:hover {
+    background-color:beige;
+}
